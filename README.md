@@ -14,3 +14,6 @@ https://figshare.com/articles/dataset/Diagnostics_xlsx/8360408?backTo=/collectio
 and their names:
 https://figshare.com/articles/dataset/ConditionNames_xlsx/8360411?backTo=/collections/ChapmanECG/4560497
 
+## Goals:
+### Week 1 / 3:
+[ ] -
