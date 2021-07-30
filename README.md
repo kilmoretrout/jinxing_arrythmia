@@ -14,3 +14,13 @@ https://figshare.com/articles/dataset/Diagnostics_xlsx/8360408?backTo=/collectio
 and their names:
 https://figshare.com/articles/dataset/ConditionNames_xlsx/8360411?backTo=/collections/ChapmanECG/4560497
 
+## Goals:
+### Week 1 / 3:
+- [ ] Make a balanced sampler of the downloaded data for training.
+- [ ] Write training routine from example scripts given. Tutorials below.
+
+Tutorials: 
+
+https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html
+
+
