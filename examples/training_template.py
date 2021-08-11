@@ -9,6 +9,7 @@ import torch
 from torch import nn
 
 import torch.optim as optim
+import pandas as pd
 
 def parse_args():
     # Argument Parser
