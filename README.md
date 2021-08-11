@@ -75,7 +75,11 @@ def forward(x, self):
     return self.out(x)
 ```
 
-- [ ] Add an arugment for the input directory and label CSV to the script and instantiate the generator class in lin 60.
+- [ ] Add an argument for the input directory and label CSV to the script and instantiate the generator class (the one we wrote on Zoom at examples/generator_template.py) in line 60.
+```
+    ### Define your data generator class here
+    ## generator = MyGenerator(*args)
+```
 - [ ] Attempt to run the script with a small batch size on your local CPU.
 
 Tutorials: 
