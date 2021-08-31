@@ -1,14 +1,12 @@
 # -*- coding: utf-8 -*-
 import numpy as np
 import matplotlib.pyplot as plt
-
 import os
 import argparse
 import logging
-
 import random
 
-################ DESCRIPTION:
+### DESCRIPTION:
 ### Loads a random X variable from the downloaded and unzipped folder and plots it
 
 def parse_args():
