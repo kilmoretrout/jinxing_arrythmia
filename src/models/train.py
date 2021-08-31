@@ -159,7 +159,7 @@ def main():
             if early_count > int(args.n_early):
                 break
         
-        ## used to shuffle the data and let the generator know were iterating through it again
+        # used to shuffle the data and let the generator know were iterating through it again
         generator.on_epoch_end()
 
         # save the training history using Pandas (CSV library)
