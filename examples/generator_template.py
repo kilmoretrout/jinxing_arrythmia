@@ -81,7 +81,7 @@ class Generator(object):
         return torch.FloatTensor(x), torch.LongTensor(np.array(y, dtype = np.int32))
     
     def get_val_batch(self):
-        # return x, y as torch Tensors
+        # return x and y as torch Tensors
         # x and y should have self.batch_size random entries in them
         x = [self.ifiles_val[u] for u in range(self.ix_val, self.ix_val + self.batch_size)]
         y = [LABELS.index(self.labels_val[u]) for u in range(self.ix_val, self.ix_val + self.batch_size)]
